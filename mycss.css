@@ -1,0 +1,212 @@
+#About{
+    display:none;
+}
+#Contact{
+    display:none;
+}
+#Projects{
+    display:none;
+}
+
+#Home{
+    display:block;
+}
+
+table, th, td {
+  border: 2px solid rgb(80, 73, 73);
+  border-collapse: collapse;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  /*background-image: url("https://wallpaper-house.com/data/out/9/wallpaper2you_363854.jpg");
+
+  background-image: rgba(253, 146, 146, 0.25) url("https://images.unsplash.com/photo-1615715932086-0552e61c565f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+  */
+  background-image: url("https://images.unsplash.com/photo-1615715932086-0552e61c565f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+  /*background-color: #cccccc;*/
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+  #rcorners {
+    border-radius: 15px / 50px;
+    background: #adaaaa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #595a59;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .bottombar {
+    position: relative;
+  }
+  
+  .sidebar a {
+    font-size: 18px;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a:hover {
+    background-color: rgb(215, 235, 240);
+    color: rgb(17, 18, 19);
+  }
+  
+  /*div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }*/
+  .we_call {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    text-align:center;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .iiit_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width:300; 
+    height:300;
+  }
+
+#About .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px 100px;
+}
+
+#About .about-img {
+	height: 10%;
+	width: 10%;
+	position: center;
+}
+/* End About Section */
+#Contact .contact {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 70%;
+}
+#Contact .contact-items {
+	/* max-width: 400px; */
+	width: 100%;
+}
+#Contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+#Contact .contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#Contact .icon {
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 100px;
+  width: 60px;
+  text-align: center;
+  text-decoration: seashell;
+  margin: 5px 2px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-github {
+  background: #080808;
+  color: white;
+}
+#connect{
+  background-color: rgb(213, 213, 214);
+}
+
+#clock{
+  position: relative;
+  bottom: 10px;
+  background-color: rgb(35, 36, 36);
+  padding: 10px;
+  color: rgb(218, 245, 236);
+}
+
+@media screen and (max-width: 1000px) {
+  #clock {
+    text-align: center;
+    float:inherit;
+    display: flex;
+    height:auto;
+  }
+}
+/*#Contact .contact-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#Contact .contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}*/
+
