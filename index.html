@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="mycss.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="displayClock()">
+<div class="bg">
+<div class="sidebar">
+  <a class="active" href="#Home" onclick="toggle('we_call', 'Home')"><b>Home</b></a>
+  <a href="#About" onclick="toggle('we_call', 'About')"><b>About</b></a>
+  <a href="#Education" onclick="toggle('we_call', 'Projects')"><b>Projects</b></a>
+  <a href="#Contact" onclick="toggle('we_call', 'Contact')"><b>Contact</b></a>
+  <br><br><br><br>
+  <div id="clock">
+  <h3>Current Date & Time:</h3>
+  <div id="demo"></div>
+  </div>
+</div>
+</div>
+
+<!-- Home -->
+  <!-- Home Section  -->
+  <section id="Home" class="we_call">
+    <div class="Home container">
+      <div>
+        <h1><u>Hey, Welcome to my Portfolio Website</u></h1>
+      </div>
+      <div id="rcorners">
+       <img width="90%" src="https://qph.fs.quoracdn.net/main-thumb-97439225-200-aelgqwoyijfxdfaprerdvosqfchcrccx.jpeg" alt="AJ_img">
+       <!-- <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t31.18172-8/13680250_477864779088002_7081582200874286756_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=m2fbWwcKZQoAX-fT4MM&_nc_ht=scontent-bom1-1.xx&oh=336a3adc2a1e8187bede5a0c4a0ee9f5&oe=61811E84" alt="AJ_img"> -->
+      </div>
+      <p><b>Currently I am a student at IIIT Hyderabad pursuing MTech in Computer Science and Engineering. 
+        <br> <br> I have completed my Graduation from G.B pant university in Electronics & Communication Engg.
+    <br> <br> After that having experience of working in Tata Consultancy Services for around 3 years.</b></p>
+    </div>
+    <br></br>
+    <div class="bottombar">
+      <a class="bottom" href="https://drive.google.com/file/d/16ht8HtMe4N4vqVV2SLpo4tFSfaMfD6KH/view?usp=sharing" target="_blank"><h1><b>(Download CV)</b></h1></a>
+    </div>
+    <div id="form">
+      <h1> Have Some Suggestions/Feedback? Use the form!</h1>
+    <form action="#Home" method="POST">
+      Your name:
+      <input type="text" name="realname"><br>
+      <br>
+      Your email:
+      <input type="text" name="email"><br>
+      <br>
+      Your comments:<br>
+      <textarea name="comments" rows="7" cols="30"></textarea><br>
+      <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+  <!-- End Home Section  -->
+
+<!-- About Section -->
+<section id="About" class="we_call">
+    <div class="about container">
+        <h1 class="section-title"><u>About Me</u></h1>
+        <h3>Post Graduate Student at <a href="https://www.iiit.ac.in/" target="_blank">IIIT Hyderabad</a></h3>
+        <p>Currently pursuing Mtech CSE at IIIT Hyderabad, Batch(2021-23).</p>
+        <div class="iiit_img">
+          <img src="https://buddymantra.com/wp-content/uploads/2020/01/iithyd_1125-696x321.jpg" alt="iiit_img">
+        </div>
+        <br>
+        <h3>Graduated from <a href="https://www.gbpuat.ac.in/" target="_blank">G.B Pant University of Agri. & Technology</a></h3>
+        <p>Completed Btech in ECE, Batch(2014-18).</p>
+        <div class="iiit_img">
+          <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/07/13/Pictures/_94be1826-86bc-11e8-a662-45bbb3f001dc.jpg" alt="gbpuat_img">
+        </div>        
+      </div>
+      <br></br>
+      <div>
+        <table style="width:70%">
+          <caption><h3>Subjects & Marks Table</h3></caption>
+          <tr>
+           <th colspan="2">B Tech</th>
+           <th colspan="2">Intermediate</th>
+           <th colspan="2">Class X</th>
+          </tr>
+          <tr>
+           <th>Subjects</th>
+           <th>Percentage</th>
+           <th>Subjects</th>
+           <th>Percentage</th>
+           <th>Subjects</th>
+           <th>Percentage</th>
+          </tr>
+          <tr>
+           <td>ECE</td>
+           <td>71</td>
+           <td>PCM</td>
+           <td>89</td>
+           <td>Science</td>
+           <td>93</td>
+          </tr>
+         </table> 
+      </div>
+      <br></br>
+  </section>
+  <!-- End About Section -->
+
+
+<!-- Projects Section -->
+<section id="Projects"class="we_call">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title"><u>Projects</u></span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <h3> Having around 3 years of experience in <a href="https://www.tcs.com/"target="_blank">TCS (Tata Consultancy Services)</a>, mostly in support projects.</h3>
+          <div class="project-img">
+            <!--<img src="https://pbs.twimg.com/profile_images/1376797543619698688/F3TIH3SL_400x400.jpg" alt="tcs_img">
+            --><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQEMvQ8E6gXSPA/company-logo_200_200/0/1625820626997?e=2159024400&v=beta&t=P_QmKHybJwx-0RE_IRaT4CGPm7cRe9CEJOZ1bHbo_nI" alt="tcs_img">
+          </div>
+          <div class="project-info">
+            <br>
+            Initially had a training period of 2 months and learned about Bussiness Skills and Techninal Skills required
+            <br>and allocated into projects after that.
+            <h2>Project 1 (Nov. 2018-March 2021)</h2>
+            <p>Worked on a Hybris based Ecommerce Solution Site as a Production Support Engineer.
+              <br>Worked on few tools like Dynatrace, Service Now, Jira, Hybris Backoffice.<br>
+  
+            </p>
+
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Project 2 (April 2021-July 2021)</h2>
+            <p>Worked on a Springboot based application as a backend software developer.
+              <br> Worked on few Production bugs and Change requests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  
+  <!-- Contact Section -->
+  <section id="Contact" class="we_call">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title"><u>Contact <span>info</span></u></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <p>+91 xxxxxxxxxx</p>
+            <p>+91 xxxxxxxxxx</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <p>anchaljakhmola50@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <p>Kotdwara,Uttarakhand</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="connect">
+      <br>
+      <h2><u>Connect via:</u></h2>
+  <a href="https://www.linkedin.com/in/anchal-jakhmola-92b111b6/" target="_blank" class="fa fa-linkedin"></a>
+<a href="https://github.com/anchaljakhmola" target="_blank" class="fa fa-github"></a>
+<a href="https://drive.google.com/drive/my-drive" target="_blank" class="fa fa-google"></a>
+<br><br>
+</div>
+<br>
+  </section>
+  <!-- End Contact Section -->
+
+  <script src="myjs.js"></script>
+</body>
+</html>
